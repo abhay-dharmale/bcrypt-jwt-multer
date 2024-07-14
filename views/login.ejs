@@ -1,0 +1,22 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>HTML 5 Boilerplate</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <main class='bg-zinc-900 h-screen w-full'>
+      <div class='w-full h-full p-10 text-white'>
+        <h1 class="text-2xl font-semibold tracking-tight mb-3">Login to Your Account</h1>
+        <form action='/login' method='post'>
+          <input class='px-2 py-1 bg-transparent border-2 border-zinc-800 rounded-md outline-none' type='email' placeholder='email' name='email'>
+          <input class='px-2 py-1 bg-transparent border-2 border-zinc-800 rounded-md outline-none' type='password' placeholder='password' name='password'>
+          <input class='px-5 py-2 bg-blue-500 rounded-md text-sm hover:bg-blue-600 cursor-pointer' type='submit' value='Login Account'>
+        </form>
+      </div>
+    </main>
+  </body>
+</html>
